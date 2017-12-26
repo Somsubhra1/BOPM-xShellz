@@ -1,0 +1,73 @@
+[
+ {
+ "placeholder":"Enter Nick",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "nick"
+ },
+ {
+ "placeholder":"Enter Real Name",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "realname"
+ },
+ {
+ "placeholder":"Enter Username",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "user"
+ },
+ {
+ "placeholder":"Enter IRC Server IP",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "serverip"
+ },
+ {
+ "placeholder":"Enter IRC Server Port (Example:6667)",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "port"
+ },
+ {
+ "placeholder":"Enter Nickserv Password",
+ "format":"string",
+ "type": "password",
+ "isMandatory": true,
+ "name": "nickpass"
+ },
+ {
+ "placeholder":"Enter Oper Username (BOPM should have it's own oper block in unrealircd.conf)",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "operuser"
+ },
+ {
+ "placeholder":"Enter Oper Password (BOPM should have it's own oper block in unrealircd.conf)",
+ "format":"string",
+ "type": "password",
+ "isMandatory": true,
+ "name": "operpass"
+ },
+ {
+ "placeholder":"Enter channel name starting with # (Add multiple channels separated by a comma) (Example: #chan1,#chan2,#chan3)",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "channel"
+ },
+ {
+ "placeholder":"Start BOPM installation",
+ "format":"button",
+ "type": "submit",
+ "isMandatory": "true",
+ "name" : "submit",
+ "value": "Launch BOPM now"
+ }
+]
