@@ -60,9 +60,9 @@ cat << EOF > bopm.conf
 # https://www.xshellz.com
 
 options {
-	pidfile = "/$HOME/bopm/bopm.pid";
+	pidfile = "$HOME/bopm/bopm.pid";
 	dns_fdlimit = 64;
-	scanlog = "/$HOME/bopm/scan.log";
+	scanlog = "$HOME/bopm/scan.log";
 };
 
 
