@@ -48,7 +48,7 @@ tar xzvf bopm-3.1.3.tar.gz
 
 cd bopm-3.1.3
 
-./Configure
+./configure
 
 make
 make install
